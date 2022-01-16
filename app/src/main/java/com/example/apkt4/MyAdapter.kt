@@ -19,6 +19,7 @@ class MyAdapter (private val foodlist : ArrayList<foodModel>):
         fun onItemClick(position: Int)
     }
 
+
     fun setOnItemclickListner(listner:onItemClicklistner){
         mListner = listner
     }
